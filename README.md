@@ -66,7 +66,7 @@ GroupMe bot to use our Heroku app to process group messages.
 1. Open up command prompt/Git Bash/terminal
 1. Clone this repository: `git clone https://github.com/stuejho/groupme-magicconch-python`
 1. Move into the cloned directory by executing `cd groupme-magicconch-python`
-1. Create a Heroku app: `heroku apps:create groupme-magicconch-python`
+1. Create a Heroku app (make your own unique app name): `heroku apps:create YOUR-APP-NAME`
 1. Add a Heroku remote using the Heroku app name from earlier: `heroku git:remote -a YOUR-APP-NAME`
 1. Set your `GROUPME_BOT_ID` as a config (environment) variable: `heroku config:set GROUPME_BOT_ID=YOUR-BOT-ID`
 1. Set your `GROUPME_BOT_NAME` as a config (environment) variable: `heroku config:set GROUPME_BOT_NAME=YOUR-BOT-NAME`
@@ -78,6 +78,8 @@ GroupMe bot to use our Heroku app to process group messages.
    of the new Web URL since it will be used later**
 
 Example:
+
+Again, just use your own unique app name instead of "groupme-magicconch-python".
 
 ```console
 $ git clone https://github.com/stuejho/groupme-magicconch-python
