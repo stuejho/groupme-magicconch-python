@@ -87,6 +87,7 @@ $ cd groupme-magicconch-python
 $ heroku apps:create groupme-magicconch-python
 $ heroku git:remote -a groupme-magicconch-python
 $ heroku config:set GROUPME_BOT_ID=c4d0e0d9985e49a7096a3afbd2
+$ heroku config:set "GROUPME_BOT_NAME=The Magic Conch"
 $ git push heroku master
 ```
 
